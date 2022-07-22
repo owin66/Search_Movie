@@ -39,7 +39,6 @@ const reducer = (state, action) => {
 };
 
 
-
 const App = () => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
